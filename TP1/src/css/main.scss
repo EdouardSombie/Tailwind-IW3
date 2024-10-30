@@ -1,0 +1,10 @@
+@use "partials/layers";
+
+@use "vendor/modern-normalize.css";
+
+@use "partials/globals";
+// Plutôt que d'utiliszr un flag !important, utilisons des layers css !!
+@use "partials/utilities";
+
+@use "components/container";
+@use "components/bioCard";
